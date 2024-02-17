@@ -2,7 +2,7 @@ body {
     font-family: 'Vesper Libre', serif;
     color: #1a1a1a;
     line-height: 1.5;
-    margin: 0;
+    margin: 0%;
 }
 
 header,
@@ -37,11 +37,57 @@ Change text to be displayed as uppercase
 Set font size to be .85rem
 Add border bottom with values 2px solid #ff3530 */
 
-.news: link {
+a.news: link {
     display: inline-block;
     transform: uppercase;
     font-size: .85rem;
     border: 2px solid #ff3530;
+}
+
+figcaption,
+article,
+h2,
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.author,
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85rem;
+    margin-bottom: 0;
+
+}
+
+figure {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+figcaption {
+    font-size: .75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+a:link {
+    color: #1a1a1a;
+    
+}
+
+a.visit: hover,
+a.visit: focus {
+    text-decoration: none;
+    color: #ff3530;
+}
 }
 
 
