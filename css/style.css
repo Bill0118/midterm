@@ -37,23 +37,21 @@ Change text to be displayed as uppercase
 Set font size to be .85rem
 Add border bottom with values 2px solid #ff3530 */
 
-a.news: link {
+.news{
     display: inline-block;
-    transform: uppercase;
+    text-transform: uppercase;
     font-size: .85rem;
-    border: 2px solid #ff3530;
+    border-bottom: 2px solid #ff3530;
 }
 
 figcaption,
 article,
-h2,
+h2
 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.author,
+.author
 .date {
     font-family: 'Open Sans', sans-serif;
     font-size: .85rem;
@@ -78,18 +76,25 @@ ul {
     padding-left: 0%;
 }
 
-a:link {
-    color: #1a1a1a;
-    
+a {
+    color: #1a1a1a; 
 }
-
-a.visit: hover,
-a.visit: focus {
+a:hover {
     text-decoration: none;
     color: #ff3530;
 }
+
+/* a:hover{
+    text-decoration: none;
+    color: #ff3530;
 }
+a:link 
+a:visited {
+   color: #1a1a1a;
+   text-decoration: underline;
+} */
 
 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Vesper Libre', serif;
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Vesper Libre', serif; */
