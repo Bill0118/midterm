@@ -32,10 +32,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Change display property to inline-block
-Change text to be displayed as uppercase
-Set font size to be .85rem
-Add border bottom with values 2px solid #ff3530 */
 
 .news{
     display: inline-block;
@@ -46,9 +42,15 @@ Add border bottom with values 2px solid #ff3530 */
 
 figcaption,
 article,
-h2
+h2,
+h3,
+.news
 {
     font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-weight: 400;
 }
 
 .author
@@ -83,18 +85,3 @@ a:hover {
     text-decoration: none;
     color: #ff3530;
 }
-
-/* a:hover{
-    text-decoration: none;
-    color: #ff3530;
-}
-a:link 
-a:visited {
-   color: #1a1a1a;
-   text-decoration: underline;
-} */
-
-
-
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Vesper Libre', serif; */
