@@ -43,7 +43,7 @@ h1 {
 figcaption,
 article,
 h2,
-h3,
+.subtitle,
 .news
 {
     font-family: 'Open Sans', sans-serif;
